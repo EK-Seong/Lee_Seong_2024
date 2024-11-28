@@ -3,14 +3,14 @@
 ### The Bank of Korea's inflation rate forecasts
 - The red line is the actual realized inflation rate,
 - And the dashed lines are the forecasts of each *Economic Outlook* issue.
-![BoK inflation forecast](https://github.com/EK-Seong/Lee_Seong_2024/blob/main/static/assets/img/cpi_plot.png)
+![BoK inflation forecast](../static/assets/img/cpi_plot.png)
 
 ### AR(1) Bias correction strategy
 - We find strong evidence that the forecast errors follow the AR(1) process.
 - Hence, we utilize this finding to correct the inflation forecast bias.
 - Model: $e_{h,t}=\alpha e_{h,t-1}+u_{h,t}$ for $h=0,1,2,3$. 
   - $h$ represents the forecast horizon (in quarters).
-  ![Optimal Window size](https://github.com/EK-Seong/Lee_Seong_2024/blob/main/static/assets/img/optimalWindow_v2.png)
+  ![Optimal Window size](../static/assets/img/optimalWindow_v2.png)
   - In the paper we find that AR(1) with *recursive* window is the best.
 
 ### Real-time Bias-corrections

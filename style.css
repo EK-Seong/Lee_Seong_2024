@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 80%;
-    min-width: 800px;
+    min-width: 400px;
     gap: 20px;
 }
 

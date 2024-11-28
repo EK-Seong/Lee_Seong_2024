@@ -304,10 +304,18 @@ figure {
   margin: 0 0 1rem;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+/*
 img,
 svg {
   vertical-align: middle;
 }
+*/
 
 table {
   caption-side: bottom;
